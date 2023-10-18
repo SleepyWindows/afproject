@@ -1,0 +1,203 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+  #housing-logo {
+    margin-right: 100px;
+  }
+
+  #housing-logo img{
+    margin-top: 60px;
+    width: 200px;
+    display: block;
+  }
+
+
+  #myInput {
+    box-sizing: border-box;
+    background-image: url('');
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 14px 20px 12px 45px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    width: 350px;
+  }
+  
+  #myInput:focus {outline: 3px solid #ddd;}
+  
+  .dropdown {
+    position: absolute;
+    display: flex;
+    /* margin: 32px; */
+    /* margin-top: 100px; */
+    justify-content: center;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .search-bar {
+    margin-right: 350px;
+  }
+  
+  .dropdown-content {
+    display: block;
+    background-color: #f6f6f6;
+    overflow: auto;
+    border: 1px solid #ddd;
+    z-index: 1;
+  }
+  
+  .dropdown a {
+    /* display: none; */
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    width: 200px;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+
+  /* end of search dropdown */
+
+  .tenant-bg {
+    margin-top: 100px;
+    background-color: #162E51;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #label {
+    font-size: 2em;
+    margin-bottom: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+  }
+
+
+  /* getting started content */
+.resources {
+   display: flex;
+   justify-content: center;
+   width: 75%;
+   margin-left: 10%;
+}
+
+  .nav-selection {
+    margin: 100px 16px 0px 10px;
+  }
+  
+  .nav-selection ul {
+    list-style-type: none;
+  }
+
+  #first-list {
+    border-top: 1px solid #dfe1e2;
+  }
+
+  .nav-selection li{
+    padding-left: 16px 8px;
+    min-height: 40px;
+    min-width: 216px;
+    font-size: 1.06rem;
+    border-bottom: 1px solid #dfe1e2;
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-selection p {
+    margin-left: 16px;
+    text-decoration: none;
+    color: #5c6065;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .header-container {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 65px 16px 0px 65px;
+    width: 75%;
+    /* display: none; */
+  }
+
+  .header {
+    font-size: 2rem;
+    color: rgb(0,94,162);
+    margin-bottom: 16px;
+  }
+
+  #getting-started-information {
+    max-width: 75%;
+    display: block;
+  }
+  
+  #heat {
+    max-width: 75%;
+    /* display: block; */
+    display: none;
+  }
+  
+  #faq {
+    max-width: 75%;
+    /* display: block; */
+    display: none;
+  }
+
+  #important-links {
+    max-width: 75%;
+    /* display: block; */
+    display: none;
+  }
+
+  #intro-text{
+    color: white;
+    font-size: large;
+  }
+
+  #base-list{
+    column-count: 3;
+  }
+  
+  #base-list ul{
+    list-style: none;
+    line-height: 180%;
+  }
+  
+  #base-list a{
+    text-decoration: none;
+    color: #162E51;
+    
+  }
+
+  #base-list a:hover{
+    text-decoration: underline;
+    color: #162E51;
+  }
+
+  #base-list p {
+    padding-top: 2px;
+  }
+  
+  .list-spacer{
+    font-size: 1.3em;
+  }
+
+  #heat-img{
+    width: 400px;
+  }
+
+  .FAQ-main{
+    font-size: 1.3em;
+    color: rgb(0,94,162);
+  }
+
+  #faq li{
+    list-style: inside;
+  }

@@ -5,7 +5,7 @@
 <div class="main-container">
     <div class="body-container">
             <div class="installation-header" id="cover-image">
-               <div id="base-backer"><h2 id="base-name"></h2></div> 
+               <div id="base-backer"><h2 id="base-name">Ankara Support Facility</h2></div> 
                 <img src="../images/installationBG.png" alt="A photo provided by Air Force Academy housing showing a sample offering">
             </div>
     </div>
@@ -18,14 +18,22 @@
         <div class="resources">
             <div class="nav-selection">
                 <ul>
-                    <!-- <li onclick="gettingStarted()" id="first-list"><p>Privatized Housing</p></li>
-                    <li onclick="heatInformation()" id="heat-list-item"><p>Unaccompanied Housing</p></li> -->
+                    <li onclick="gettingStarted()" id="first-list"><p>Privatized Housing</p></li>
+                    <li onclick="heatInformation()" id="heat-list-item"><p>Unaccompanied Housing</p></li>
                     <li onclick="faqInformation()" id="faq-list-item"><p>Community Housing</p></li>
                     <li onclick="linksInformation()" id="links-list-item"><p>Important Links</p></li>
-                    
                 </ul>
             </div>
-            
+
+            <!-- housing options section -->
+            <div class="header-container" id="getting-started-information">
+                <h2 class="header">Privatized Housing</h2>
+                <p id="getting-started-statement">This housing option is not available at this installation.</p>
+            </div>
+            <div class="header-container" id="heat">
+                <h2 class="header">Unaccompanied Housing</h2>
+                <p id="heat-statement">This housing option is not available at this installation.</p>
+            </div>
             <div class="header-container" id="faq">
                 <h2 class="header">Community Housing</h2>
                 <h3>Housing in the Local Community</h3>
@@ -45,6 +53,8 @@
                 <a href="https://www.housing.af.mil/Home/Units/Ankara-Support-Facility/Referral-and-Relocation-Assistance/"><p>Referral and Relocation Services</p></a>
                 <a href="https://ankaraehs.dodea.edu/"><p>Ankara E/H School</p></a>
             </div>
+
+            <!-- contact details section -->
             <div class="contact-info">
                 <h2>Military Housing Office</h2>
                 <table>
@@ -55,15 +65,17 @@
                     </tr>
                     <tr>
                         <td>Email</td>
-                        <td>717.housing@usafe.ds.af.mil</td>
+                        <td>
+                            <a href="mailto:717.housing@usafe.ds.af.mil">Send an email</a>
+                        </td>
                     </tr>
                     <tr>
                         <td>Address</td>
-                        <td>CECH UNIT 6940 BOX 10 APO AE 09822-4010</td>
+                        <td>CECH UNIT 6940 BOX 10 <br>APO AE 09822-4010</td>
                     </tr>
                     <tr>
                         <td>Hours</td>
-                        <td>M-F - 7:30am - 4:30pm (Eastern European Time)</td>
+                        <td>M-F - 7:30am - 4:30pm <br>(Eastern European Time)</td>
                     </tr>
                 </tbody>
             </table>
@@ -73,5 +85,3 @@
     <script src="../javascript/installation.js"></script>
 </div>
 </body>
-
-<!-- faq and important links are the only two sections that should be in the html. also the js file needs to remove mentions of the unused sections or there will be an error. finally the information for contact needs to be updated in css file to reflect always showing rather than changing when different sections are clicked. -->

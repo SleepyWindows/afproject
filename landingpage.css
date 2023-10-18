@@ -1,0 +1,187 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+    
+  }
+
+  /* section 1 containing cards leading to each respective view: Tenant, Property Mangement, and Housing Office */
+  .card-view-container {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    background-image: url("../images/marcus-lenk-wKO0rx50VWo-unsplash.jpg");
+    background-color: #15263B;
+    max-width: 100%;
+    height: auto;
+    min-height: 430px;
+    padding: 32px 75px;
+    margin: 10px;
+  }
+
+  .card-view {
+    position: relative;
+    display: inline-block;
+    background-color: #162E51;
+    width: 30%;
+    margin: 10px;
+    min-width: 300px;
+    max-width: 450px;
+    box-shadow: 10px 10px 5px #02020229;
+  }
+
+  .card-view h2 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.95rem;
+    font-weight: 700;
+    color: #00bde3;
+    margin: 32px;
+  }
+
+  .card-view .subheading {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 32px;
+    color: white;
+    height: 50px;
+  }
+
+  .card-view .btn {
+    height: 60px;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border: none;
+    color: white;
+    font-size: 1.06rem;
+    background-color: rgb(0,94,162);
+    cursor: pointer;
+    transition-duration: 0.4s;
+  }
+
+  .btn-text {
+    padding: 0;
+    margin: 10;
+    text-align: center;
+    font-size: 1.25rem;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .btn-link{
+    text-decoration: none;
+  }
+
+/* section 3 containing mission statment, divider, and housing referral services statement */
+  .mission-statement-container {
+    display: flex;
+    justify-content: center;
+    padding: 50px 32px 32px 32px;
+  }
+
+  .statement h2{
+    margin-top: 70px;
+    color: #1b1b1b;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+  }
+
+  .statement-information p {
+    max-width: 550px;
+    font-size: 1.06rem;
+  }
+  
+  .divider {
+    background-color: #15263B;
+    width: 3px;
+    height: 200px;
+    margin: 0px 25px;
+  }
+
+  /* section 2 containing additional required information regarding HEAT, FAQ directory and Military Housing Rights */
+  #section-heading{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-color: white;
+    border-style: solid;
+    border-width: 0px 0px 3px 0px;
+  }
+
+  .info-links-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #162E51;
+    max-width: 100%;
+    height: auto;
+    min-height: 430px;
+    padding: 32px 75px;
+    margin: 10px;
+  }
+
+  .info-subsection {
+    display: inline-block;
+    
+  }
+  .info-link{
+    /* max-height: 250px;
+    min-height: 250px; */
+    margin: 32px;
+    display: block;
+    /* overflow-y: scroll;
+    overflow-x: visible; */
+    border-radius: 1px;
+    border-color: white;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 10px 10px 5px #02020229;
+    border-radius: 3px;
+  }
+
+  .info-link-header{
+    max-width: 400px;
+    color: #162E51;
+    font-size:1.34rem;
+  }
+  .info-link-text {
+    
+    max-width: 500px;
+    font-size: 1.06rem;
+    /* margin: 17px; */
+  }
+  
+  .info-link-img img {
+    margin-top: 10px;
+    max-width: 300px;
+  }
+
+  /* scrollbar adjustments */
+
+  ::-webkit-scrollbar {
+    width: 0px;
+    display: hidden;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgb(255,255,255,0); 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(229, 228, 226,.2); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(255,255,255,0); 
+  }
